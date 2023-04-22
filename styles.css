@@ -1,0 +1,30 @@
+@font-face {
+    font-family: SysFont;
+    src: url(src/fonts/pan3x5.ttf);
+}
+
+body {
+    position: relative;
+    background-color: rgb(34, 38, 46);
+
+}
+
+.root {
+    position: absolute;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.root div {
+    /* border: 2px solid green; */
+    font-family: "SysFont";
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.root img {
+    width: 256px;
+    position: relative;
+    margin-bottom: 20px;
+}
